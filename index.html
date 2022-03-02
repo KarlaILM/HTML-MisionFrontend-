@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pastelverso.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pastelverso</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="pastelverso.png" alt="Logo Pastelverso" height="150px">
+                <p class="logo-titulo">PASTELVERSO</p>
+
+            </div>
+            <ul class="nav-list">
+                <li class="list-item"><a href="#inicio">INICIO</a></li>
+                <li class="list-item"><a href="#menu">MENÚ</a></li>
+                <li class="list-item"><a href="#pedidos">PEDIDOS</a></li>
+                <li class="list-item"><a href="administrador.html">ADMINISTRADOR</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1 class="titulo-bienvenida">Bienvenidos al <br> Pastelverso</h1>
+            <p class="texto-bienvenida">Los mejores pasteles del universo</p>
+            <img class="img-bienvenida" src="pastelverso1.png" alt="">
+        </section>
+        <section id="menu">
+            <h2 class="titulo-menu">Nuestro menú</h2>
+            <div class="contenedor-tarjetas">
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>PASTEL DE ZANAHORIA</p>
+                        <p>$ 395</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>PASTEL DE MOKA</p>
+                        <p>$ 380</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>PASTEL DE TRES LECHES</p>
+                        <p>$ 395</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>PASTEL RED VELVET</p>
+                        <p>$ 400</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>PASTEL MIL HOJAS</p>
+                        <p>$ 500</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>CHEESECAKE OREO</p>
+                        <p>$ 340</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>CHEESECAKE CAJETA</p>
+                        <p>$ 365</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta-menu">
+                    <div>
+                        <p>CHEESECAKE ZARZAMORA</p>
+                        <p>$ 320</p>
+                    </div>
+                    <div>
+                        <img class="img-tarjeta-menu" src="tarjeta-menu.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="pedidos">
+            <h2 class="titulo-pedidos">HAZ TU PEDIDO</h2>
+            <form action="">
+                <h3 class="titulo-armalo">ARMALO A TU GUSTO</h3>
+                <div class="datos-personales">
+                    <div class="label-input">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="label-input">
+                        <label for="apellido-p">Apellido paterno</label>
+                        <input type="text" id="apellido-p">
+                    </div>
+                    <div class="label-input">
+                        <label for="apellido-m">Apellido materno</label>
+                        <input type="text" id="apellido-m">
+                    </div>
+                    <div class="label-input">
+                        <label for="telefono">Telefono de casa</label>
+                        <input type="text" id="telefono">
+                    </div>
+                    <div class="label-input">
+                        <label for="celular">Celular</label>
+                        <input type="text" id="celular">
+                    </div>
+                    <div class="label-input">
+                        <label for="correo-electronico">Correo electronico</label>
+                        <input type="text" id="correo-electronico">
+                    </div>
+                </div>
+                <p style="font-weight: bold; margin: 30px 0;">SELECCIONA EL PASTEL QUE DESEAS</p>
+                <div class="pasteles">
+                    <div>
+                        <label><input type="checkbox" id="cbox1" value="pastel1"> PASTEL DE ZANAHORIA</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> PASTEL DE MOKA</label><br>
+                        <label><input type="checkbox" id="cbox3" value="pastel3"> PASTEL DE TRES LECHES</label><br>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" id="cbox4" value="pastel4"> PASTEL RED VELVET</label><br>
+                        <label><input type="checkbox" id="cbox5" value="pastel5"> PASTEL MIL HOJAS</label><br>
+                        <label><input type="checkbox" id="cbox6" value="pastel6"> CHESSECAKE OREO</label><br>
+                    </div>
+                    <div>
+                        <label><input type="checkbox" id="cbox7" value="pastel7"> CHESSECAKE CAJETA</label><br>
+                        <label><input type="checkbox" id="cbox8" value="pastel8"> CHESSECAKE ZARZAMORA</label><br>
+                    </div>
+                </div>
+                <p style="font-weight: bold; margin: 30px 0;">O ARMA TU PASATEL A TU GUSTO</p>
+                <div class="pastel-personalizado">
+                    <div>
+                        <p>Selecciona el tipo de pastel</p>
+                        <label><input type="checkbox" id="cbox1" value="pastel1"> CHEESECAKE</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> TRES LECHES</label><br>
+                    </div>
+                    <div>
+                        <p>Selecciona el sabor</p>
+                        <label><input type="checkbox" id="cbox1" value="pastel1"> CHOCOLATE</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> FRESA</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> ZARZAMORA</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> OREO</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> CAJETA</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> MOKA</label><br>
+                    </div>
+                    <div>
+                        <p>Sellecciona algun adorno</p>
+                        <label><input type="checkbox" id="cbox1" value="pastel1"> TAREJETA DE FELICITACIÓN</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> MOÑO</label><br>
+                        <label><input type="checkbox" id="cbox2" value="pastel2"> LETRERO DE FELICITACIÓN</label><br>
+                    </div>
+                </div>
+                <button class="btn-enviar" name="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <div>
+                <p style="font-weight: 600; font-size: 20px;">Contactanos</p>
+                <div style="display: flex; justify-content: space-between;">
+                    <p><span><i class="fa-solid fa-phone"></i></span>(55) 55 67 38 98</p>
+                    <p><span><i class="fa-solid fa-envelope"></i></span>pastelverso@pasterias.com</p>
+                    <p><span><i class="fa-brands fa-facebook-f"></i></span>pastelversooficial</p>
+                    <p><span><i class="fa-brands fa-instagram"></i></span>pastelversooficial</p>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <p>Pastelverso todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2693bf129c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
